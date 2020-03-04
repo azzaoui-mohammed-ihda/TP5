@@ -1,0 +1,38 @@
+function Etudiant(a,b){
+    this.nom=a;
+    this.prenom=b;
+    this.note=[];
+    this.dirBonjour=function(){
+        console.log("hello my name is "+this.nom+"  "+this.prenom)
+        }
+    this.ajouternote=function(n){
+        this.note.push(n);
+    }
+}
+/*var E1=new Etudiant("mohammed","azzaoui");
+E1.dirBonjour();
+const E5=new Etudiant("brahim","simo");
+E5.dirBonjour();*/
+   var n1=new Etudiant("mohammed","azzaoui");
+   n1.ajouternote(45);
+   n1.ajouternote(88);
+   n1.ajouternote(01);
+   n1.ajouternote(65);
+   n1.ajouternote(14);
+   console.log(n1.note);
+
+
+
+/*function Cars(c,d,annee){
+    this.name=c;
+    this.modele=d;
+    this.annee=annee;
+    this.affichemodule=function(){
+        console.log("son modele est :"+this.modele+"et son nom :"+this.name+"et  annee est :"+this.annee)
+    }
+}
+var C1=new Cars("dacia","2015","volsvagen").affichemodule();*/
+
+
+
+
