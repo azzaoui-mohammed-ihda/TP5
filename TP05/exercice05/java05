@@ -1,0 +1,64 @@
+function member(name,id,grade){
+    this.name=name;
+    this.id=id;
+    this.grade=grade;
+    this.tostring(){
+        let str="";
+        return str;
+    }
+}
+
+function Team(name,id){
+    this.name=name;
+    this.id=id;
+    this.member=new Array();
+    this.addnumber=function(n){
+        this.member.push(n);
+    }
+    }
+}
+
+var m1=new member("rachid",100,"cor");
+var m2=new member("mohammed",200,"gab");
+
+var est=new Team("este",258);
+var estg=new Team("estg",369);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class member{
+    this.name=name;
+    this.id=id;
+    this.grade=grade;
+    this.tostring(){
+        let str="";
+        return str;
+}

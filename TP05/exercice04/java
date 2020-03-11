@@ -1,0 +1,8 @@
+  let nbr=Math.random()*100;
+  nbr=Math.floor(nbr);
+  console.log(nbr);
+var x=prompt("entrer un nombre de votre choix");
+      if 
+
+
+
